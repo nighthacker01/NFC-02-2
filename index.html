@@ -11,7 +11,7 @@
     <video id="input_video" autoplay muted playsinline style="width:100%; height:auto;"></video>
 
     <script>
-        const socket = new WebSocket("ws://192.168.1.25");  // ⚠️ 把這裡改成你電腦的 IP
+        const socket = new WebSocket("ws:// 10.120.2.43:80");  // ⚠️ 把這裡改成你電腦的 IP
 
         socket.onopen = () => {
             console.log("WebSocket 連線成功！");
